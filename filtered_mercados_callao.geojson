@@ -11,6 +11,7 @@
         ]
       },
       "properties": {
+        "id": 1,
         "amenity": "marketplace",
         "name": "Cooperativa de Servicios Especiales Cecilia Tupac Amaru"
       }
@@ -25,8 +26,9 @@
         ]
       },
       "properties": {
+        "id": 2,
         "amenity": "marketplace",
-        "name": "Mercado Cooperativo Reynoso"
+        "name": "Almacen Cooperativo Reynoso"
       }
     },
     {
@@ -39,8 +41,9 @@
         ]
       },
       "properties": {
+        "id": 3,
         "amenity": "marketplace",
-        "name": "Mercado Dulanto"
+        "name": "Almacen Dulanto"
       }
     },
     {
@@ -53,10 +56,11 @@
         ]
       },
       "properties": {
+        "id": 4,
         "addr:city": "Callao",
         "addr:street": "Avenida Bertello (Colectora)",
         "amenity": "marketplace",
-        "name": "Mercado El Alamo"
+        "name": "Colectora El Alamo"
       }
     },
     {
@@ -69,6 +73,7 @@
         ]
       },
       "properties": {
+        "id": 5,
         "addr:city": "Callao",
         "addr:street": "Avenida Mora",
         "amenity": "marketplace",
@@ -85,11 +90,12 @@
         ]
       },
       "properties": {
+        "id": 6,
         "addr:city": "Bellavista",
         "addr:housenumber": "950",
         "addr:street": "Avenida Juan Velasco Alvarado",
         "amenity": "marketplace",
-        "name": "Mercado Jose Olaya"
+        "name": "Jose Olaya"
       }
     },
     {
@@ -102,8 +108,9 @@
         ]
       },
       "properties": {
+        "id": 7,
         "amenity": "marketplace",
-        "name": "Mercado Modelo 200 Millas"
+        "name": "Modelo 200 Millas"
       }
     },
     {
@@ -116,8 +123,9 @@
         ]
       },
       "properties": {
+        "id": 8,
         "amenity": "marketplace",
-        "name": "Mercado Popular San Jose"
+        "name": "San Jose"
       }
     },
     {
@@ -130,9 +138,10 @@
         ]
       },
       "properties": {
+        "id": 9,
         "addr:city": "Bellavista",
         "amenity": "marketplace",
-        "name": "Mercado San Pedro"
+        "name": "San Pedro"
       }
     },
     {
@@ -145,9 +154,10 @@
         ]
       },
       "properties": {
+        "id": 10,
         "addr:street": "Callao",
         "amenity": "marketplace",
-        "name": "Mercado Virgen del Rosario"
+        "name": "Virgen del Rosario"
       }
     },
     {
@@ -160,6 +170,7 @@
         ]
       },
       "properties": {
+        "id": 11,
         "addr:postcode": "07031",
         "amenity": "marketplace",
         "name": "365 Dali"
@@ -175,6 +186,7 @@
         ]
       },
       "properties": {
+        "id": 12,
         "amenity": "marketplace",
         "name": "Adelasa",
         "name:es": "Aldeasa"
@@ -190,6 +202,7 @@
         ]
       },
       "properties": {
+        "id": 13,
         "amenity": "marketplace"
       }
     },
@@ -203,8 +216,9 @@
         ]
       },
       "properties": {
+        "id": 14,
         "amenity": "marketplace",
-        "name": "V\u00edrgen del Carmen"
+        "name": "Vírgen del Carmen"
       }
     },
     {
@@ -217,6 +231,7 @@
         ]
       },
       "properties": {
+        "id": 15,
         "amenity": "marketplace",
         "name": "Mercado Virgen Maria"
       }
@@ -231,6 +246,7 @@
         ]
       },
       "properties": {
+        "id": 16,
         "amenity": "marketplace",
         "name": "Mercado Municipal Unidad Vecinal 3"
       }
@@ -245,8 +261,9 @@
         ]
       },
       "properties": {
+        "id": 17,
         "amenity": "marketplace",
-        "name": "Asociaci\u00f3n de comerciantes informales El Amauta"
+        "name": "Asociación de comerciantes informales El Amauta"
       }
     },
     {
@@ -259,6 +276,7 @@
         ]
       },
       "properties": {
+        "id": 18,
         "amenity": "marketplace",
         "name": "Colegio Fujimori",
         "name:en": "Fujimori School"
@@ -274,6 +292,7 @@
         ]
       },
       "properties": {
+        "id": 19,
         "amenity": "marketplace",
         "opening_hours": "Mo-Su 08:00-16:00"
       }
@@ -288,11 +307,12 @@
         ]
       },
       "properties": {
+        "id": 20,
         "addr:housenumber": "928",
         "addr:street": "Avenida Miguel Grau",
         "amenity": "marketplace",
         "building": "yes",
-        "name": "Mercado El Rey"
+        "name": "Almacen El Rey"
       }
     },
     {
@@ -303,6 +323,9 @@
           -77.0958409,
           -12.0212426
         ]
+      },
+      "properties": {
+        "id": 21
       }
     }
   ]

@@ -21,7 +21,7 @@ edges.plot(ax=ax, linewidth=0.5, color='gray')
 nodes.plot(ax=ax, color='blue', markersize=50, label='Nodos')
 
 # nodos de los mercados
-mercados_gdf.plot(ax=ax, color='red', markersize=50, marker='o', label='Mercados')
+mercados_gdf.plot(ax=ax, color='red', markersize=50, marker='o', label='Almacen')
 
 #leyenda
 ax.legend()
