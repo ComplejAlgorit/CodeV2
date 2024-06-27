@@ -3,10 +3,10 @@ import json
 
 # Definir el bounding box para el distrito de Callao
 bbox = {
-    "south": -12.109,
-    "west": -77.182,
-    "north": -11.928,
-    "east": -77.051
+    "south": -12.09,
+    "west": -77.82,
+    "north": -11.92,
+    "east": -77.05
 }
 
 # query de overpass

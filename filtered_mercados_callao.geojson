@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0828555,
-          -12.0384365
+          -77.0802183,
+          -12.0125094
         ]
       },
       "properties": {
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0961216,
-          -12.042212
+          -77.0849991,
+          -12.0146051
         ]
       },
       "properties": {
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1029591,
-          -12.0439989
+          -77.0750771,
+          -12.026002
         ]
       },
       "properties": {
@@ -48,8 +48,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1072065,
-          -12.0014704
+          -77.0885608,
+          -12.0408847
         ]
       },
       "properties": {
@@ -64,8 +64,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1346653,
-          -12.0509719
+          -77.082957,
+          -12.0369491
         ]
       },
       "properties": {
@@ -80,8 +80,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.105516,
-          -12.0593535
+          -77.0921742,
+          -12.0181272
         ]
       },
       "properties": {
@@ -97,8 +97,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.12363,
-          -11.9975718
+          -77.0840339,
+          -12.0306245
         ]
       },
       "properties": {
@@ -111,8 +111,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0960863,
-          -12.0562952
+          -77.0714103,
+          -12.0140879
         ]
       },
       "properties": {
@@ -125,8 +125,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1073123,
-          -12.0595437
+          -77.0914892,
+          -12.0346464
         ]
       },
       "properties": {
@@ -140,8 +140,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1026878,
-          -12.0436046
+          -77.0951063,
+          -12.0368891
         ]
       },
       "properties": {
@@ -155,8 +155,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1096941,
-          -12.0220291
+          -77.0791721,
+          -12.0210698
         ]
       },
       "properties": {
@@ -170,8 +170,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1085989,
-          -12.0235914
+          -77.0717313,
+          -12.0155365
         ]
       },
       "properties": {
@@ -185,8 +185,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0727748,
-          -12.0593796
+          -77.0891954,
+          -12.0132036
         ]
       },
       "properties": {
@@ -198,8 +198,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0997735,
-          -12.0064784
+          -77.0945097,
+          -12.0222709
         ]
       },
       "properties": {
@@ -212,8 +212,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1090799,
-          -12.044451
+          -77.0828712,
+          -12.0432269
         ]
       },
       "properties": {
@@ -226,8 +226,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0814096,
-          -12.0517054
+          -77.0868466,
+          -12.0399648
         ]
       },
       "properties": {
@@ -240,8 +240,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.08572,
-          -12.0427054
+          -77.0973678,
+          -12.035487
         ]
       },
       "properties": {
@@ -254,8 +254,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0808269,
-          -11.949206
+          -77.0972651,
+          -12.0229207
         ]
       },
       "properties": {
@@ -269,8 +269,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0743711,
-          -12.0667543
+          -77.0799677,
+          -12.0143693
         ]
       },
       "properties": {
@@ -283,8 +283,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1389821,
-          -12.0627026
+          -77.083846,
+          -12.039941
         ]
       },
       "properties": {
@@ -300,84 +300,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1343705,
-          -12.0509813
+          -77.0958409,
+          -12.0212426
         ]
-      },
-      "properties": {
-        "amenity": "marketplace",
-        "name": "Mercado La Libertad"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.098002,
-          -11.98346
-        ]
-      },
-      "properties": {
-        "amenity": "marketplace",
-        "name": "Mercado Canta Callao"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.066028,
-          -12.0314131
-        ]
-      },
-      "properties": {
-        "addr:housenumber": "1886",
-        "addr:street": "Jir\u00f3n R\u00edo Branco",
-        "amenity": "marketplace"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.0956422,
-          -12.0096383
-        ]
-      },
-      "properties": {
-        "amenity": "marketplace"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.0606311,
-          -11.9551841
-        ]
-      },
-      "properties": {
-        "addr:street": "Avenida M\u00e9xico",
-        "amenity": "marketplace",
-        "name": "M\u00e8xico"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.0773517,
-          -11.9352337
-        ]
-      },
-      "properties": {
-        "amenity": "marketplace",
-        "name": "Mercado Cooperativa de Pro"
       }
     }
   ]
