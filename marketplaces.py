@@ -52,7 +52,7 @@ filtered_data = {
 }
 
 # se guardan la filtración en un GeoJSON
-with open('filtered_mercados_callao.geojson', 'w') as outfile:
+with open('filtered_almacen_callao.geojson', 'w') as outfile:
     json.dump(filtered_data, outfile, indent=2)
 
-print("se han guardado filtered_almacenes_callao.geojson")
+print("se han guardado filtered_almacen_callao.geojson")

@@ -28,7 +28,7 @@
       "properties": {
         "id": 2,
         "amenity": "marketplace",
-        "name": "Mercado Cooperativo Reynoso"
+        "name": "Almacen Cooperativo Reynoso"
       }
     },
     {
@@ -43,7 +43,7 @@
       "properties": {
         "id": 3,
         "amenity": "marketplace",
-        "name": "Mercado Dulanto"
+        "name": "Almacen Dulanto"
       }
     },
     {
@@ -60,7 +60,7 @@
         "addr:city": "Callao",
         "addr:street": "Avenida Bertello (Colectora)",
         "amenity": "marketplace",
-        "name": "Mercado El Alamo"
+        "name": "Colectora El Alamo"
       }
     },
     {
@@ -95,7 +95,7 @@
         "addr:housenumber": "950",
         "addr:street": "Avenida Juan Velasco Alvarado",
         "amenity": "marketplace",
-        "name": "Mercado Jose Olaya"
+        "name": "Jose Olaya"
       }
     },
     {
@@ -110,7 +110,7 @@
       "properties": {
         "id": 7,
         "amenity": "marketplace",
-        "name": "Mercado Modelo 200 Millas"
+        "name": "Modelo 200 Millas"
       }
     },
     {
@@ -125,7 +125,7 @@
       "properties": {
         "id": 8,
         "amenity": "marketplace",
-        "name": "Mercado Popular San Jose"
+        "name": "San Jose"
       }
     },
     {
@@ -141,7 +141,7 @@
         "id": 9,
         "addr:city": "Bellavista",
         "amenity": "marketplace",
-        "name": "Mercado San Pedro"
+        "name": "San Pedro"
       }
     },
     {
@@ -157,7 +157,7 @@
         "id": 10,
         "addr:street": "Callao",
         "amenity": "marketplace",
-        "name": "Mercado Virgen del Rosario"
+        "name": "Virgen del Rosario"
       }
     },
     {
@@ -312,7 +312,7 @@
         "addr:street": "Avenida Miguel Grau",
         "amenity": "marketplace",
         "building": "yes",
-        "name": "Mercado El Rey"
+        "name": "Almacen El Rey"
       }
     },
     {

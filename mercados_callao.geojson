@@ -1,47 +1,58 @@
 {
-  "version": 0.6,
-  "generator": "Overpass API 0.7.62.1 084b4234",
-  "osm3s": {
-    "timestamp_osm_base": "2024-06-22T03:36:29Z",
-    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
-  },
-  "elements": [
+  "type": "FeatureCollection",
+  "features": [
     {
-      "type": "node",
-      "id": 1846396602,
-      "lat": -12.0384365,
-      "lon": -77.0828555,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0802183,
+          -12.0125094
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Cooperativa de Servicios Especiales Cecilia Tupac Amaru"
       }
     },
     {
-      "type": "node",
-      "id": 1846396634,
-      "lat": -12.042212,
-      "lon": -77.0961216,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0849991,
+          -12.0146051
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Mercado Cooperativo Reynoso"
       }
     },
     {
-      "type": "node",
-      "id": 1846396635,
-      "lat": -12.0439989,
-      "lon": -77.1029591,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0750771,
+          -12.026002
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Mercado Dulanto"
       }
     },
     {
-      "type": "node",
-      "id": 1846396636,
-      "lat": -12.0014704,
-      "lon": -77.1072065,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0885608,
+          -12.0408847
+        ]
+      },
+      "properties": {
         "addr:city": "Callao",
         "addr:street": "Avenida Bertello (Colectora)",
         "amenity": "marketplace",
@@ -49,11 +60,15 @@
       }
     },
     {
-      "type": "node",
-      "id": 1846396638,
-      "lat": -12.0509719,
-      "lon": -77.1346653,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.082957,
+          -12.0369491
+        ]
+      },
+      "properties": {
         "addr:city": "Callao",
         "addr:street": "Avenida Mora",
         "amenity": "marketplace",
@@ -61,11 +76,15 @@
       }
     },
     {
-      "type": "node",
-      "id": 1846396639,
-      "lat": -12.0593535,
-      "lon": -77.105516,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0921742,
+          -12.0181272
+        ]
+      },
+      "properties": {
         "addr:city": "Bellavista",
         "addr:housenumber": "950",
         "addr:street": "Avenida Juan Velasco Alvarado",
@@ -74,145 +93,201 @@
       }
     },
     {
-      "type": "node",
-      "id": 1846396643,
-      "lat": -11.9975718,
-      "lon": -77.12363,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0840339,
+          -12.0306245
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Mercado Modelo 200 Millas"
       }
     },
     {
-      "type": "node",
-      "id": 1846396655,
-      "lat": -12.0562952,
-      "lon": -77.0960863,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0714103,
+          -12.0140879
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Mercado Popular San Jose"
       }
     },
     {
-      "type": "node",
-      "id": 1846396661,
-      "lat": -12.0595437,
-      "lon": -77.1073123,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0914892,
+          -12.0346464
+        ]
+      },
+      "properties": {
         "addr:city": "Bellavista",
         "amenity": "marketplace",
         "name": "Mercado San Pedro"
       }
     },
     {
-      "type": "node",
-      "id": 1846396670,
-      "lat": -12.0436046,
-      "lon": -77.1026878,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0951063,
+          -12.0368891
+        ]
+      },
+      "properties": {
         "addr:street": "Callao",
         "amenity": "marketplace",
         "name": "Mercado Virgen del Rosario"
       }
     },
     {
-      "type": "node",
-      "id": 3958975139,
-      "lat": -12.0220291,
-      "lon": -77.1096941,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0791721,
+          -12.0210698
+        ]
+      },
+      "properties": {
         "addr:postcode": "07031",
         "amenity": "marketplace",
         "name": "365 Dali"
       }
     },
     {
-      "type": "node",
-      "id": 3958975140,
-      "lat": -12.0235914,
-      "lon": -77.1085989,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0717313,
+          -12.0155365
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Adelasa",
         "name:es": "Aldeasa"
       }
     },
     {
-      "type": "node",
-      "id": 4206215629,
-      "lat": -12.0593796,
-      "lon": -77.0727748,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0891954,
+          -12.0132036
+        ]
+      },
+      "properties": {
         "amenity": "marketplace"
       }
     },
     {
-      "type": "node",
-      "id": 4403379705,
-      "lat": -12.0064784,
-      "lon": -77.0997735,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0945097,
+          -12.0222709
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "V\u00edrgen del Carmen"
       }
     },
     {
-      "type": "node",
-      "id": 4554163376,
-      "lat": -12.044451,
-      "lon": -77.1090799,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0828712,
+          -12.0432269
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Mercado Virgen Maria"
       }
     },
     {
-      "type": "node",
-      "id": 4677193745,
-      "lat": -12.0517054,
-      "lon": -77.0814096,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0868466,
+          -12.0399648
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Mercado Municipal Unidad Vecinal 3"
       }
     },
     {
-      "type": "node",
-      "id": 4715720425,
-      "lat": -12.0427054,
-      "lon": -77.08572,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0973678,
+          -12.035487
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Asociaci\u00f3n de comerciantes informales El Amauta"
       }
     },
     {
-      "type": "node",
-      "id": 5350057951,
-      "lat": -11.949206,
-      "lon": -77.0808269,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0972651,
+          -12.0229207
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "name": "Colegio Fujimori",
         "name:en": "Fujimori School"
       }
     },
     {
-      "type": "node",
-      "id": 6129318593,
-      "lat": -12.0667543,
-      "lon": -77.0743711,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0799677,
+          -12.0143693
+        ]
+      },
+      "properties": {
         "amenity": "marketplace",
         "opening_hours": "Mo-Su 08:00-16:00"
       }
     },
     {
-      "type": "node",
-      "id": 7330855842,
-      "lat": -12.0627026,
-      "lon": -77.1389821,
-      "tags": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.083846,
+          -12.039941
+        ]
+      },
+      "properties": {
         "addr:housenumber": "928",
         "addr:street": "Avenida Miguel Grau",
         "amenity": "marketplace",
@@ -221,64 +296,13 @@
       }
     },
     {
-      "type": "node",
-      "id": 7332964162,
-      "lat": -12.0509813,
-      "lon": -77.1343705,
-      "tags": {
-        "amenity": "marketplace",
-        "name": "Mercado La Libertad"
-      }
-    },
-    {
-      "type": "node",
-      "id": 7442894851,
-      "lat": -11.98346,
-      "lon": -77.098002,
-      "tags": {
-        "amenity": "marketplace",
-        "name": "Mercado Canta Callao"
-      }
-    },
-    {
-      "type": "node",
-      "id": 9784413383,
-      "lat": -12.0314131,
-      "lon": -77.066028,
-      "tags": {
-        "addr:housenumber": "1886",
-        "addr:street": "Jir\u00f3n R\u00edo Branco",
-        "amenity": "marketplace"
-      }
-    },
-    {
-      "type": "node",
-      "id": 10585461930,
-      "lat": -12.0096383,
-      "lon": -77.0956422,
-      "tags": {
-        "amenity": "marketplace"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11225298318,
-      "lat": -11.9551841,
-      "lon": -77.0606311,
-      "tags": {
-        "addr:street": "Avenida M\u00e9xico",
-        "amenity": "marketplace",
-        "name": "M\u00e8xico"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11955748252,
-      "lat": -11.9352337,
-      "lon": -77.0773517,
-      "tags": {
-        "amenity": "marketplace",
-        "name": "Mercado Cooperativa de Pro"
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0958409,
+          -12.0212426
+        ]
       }
     }
   ]
