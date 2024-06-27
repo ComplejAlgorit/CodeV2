@@ -1,0 +1,384 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0828555,
+          -12.0384365
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Cooperativa de Servicios Especiales Cecilia Tupac Amaru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0961216,
+          -12.042212
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Cooperativo Reynoso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1029591,
+          -12.0439989
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Dulanto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1072065,
+          -12.0014704
+        ]
+      },
+      "properties": {
+        "addr:city": "Callao",
+        "addr:street": "Avenida Bertello (Colectora)",
+        "amenity": "marketplace",
+        "name": "Mercado El Alamo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1346653,
+          -12.0509719
+        ]
+      },
+      "properties": {
+        "addr:city": "Callao",
+        "addr:street": "Avenida Mora",
+        "amenity": "marketplace",
+        "name": "Ovalo Centenario (Callao)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.105516,
+          -12.0593535
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellavista",
+        "addr:housenumber": "950",
+        "addr:street": "Avenida Juan Velasco Alvarado",
+        "amenity": "marketplace",
+        "name": "Mercado Jose Olaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.12363,
+          -11.9975718
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Modelo 200 Millas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0960863,
+          -12.0562952
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Popular San Jose"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1073123,
+          -12.0595437
+        ]
+      },
+      "properties": {
+        "addr:city": "Bellavista",
+        "amenity": "marketplace",
+        "name": "Mercado San Pedro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1026878,
+          -12.0436046
+        ]
+      },
+      "properties": {
+        "addr:street": "Callao",
+        "amenity": "marketplace",
+        "name": "Mercado Virgen del Rosario"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1096941,
+          -12.0220291
+        ]
+      },
+      "properties": {
+        "addr:postcode": "07031",
+        "amenity": "marketplace",
+        "name": "365 Dali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1085989,
+          -12.0235914
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Adelasa",
+        "name:es": "Aldeasa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0727748,
+          -12.0593796
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0997735,
+          -12.0064784
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "V\u00edrgen del Carmen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1090799,
+          -12.044451
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Virgen Maria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0814096,
+          -12.0517054
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Municipal Unidad Vecinal 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.08572,
+          -12.0427054
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Asociaci\u00f3n de comerciantes informales El Amauta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0808269,
+          -11.949206
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Colegio Fujimori",
+        "name:en": "Fujimori School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0743711,
+          -12.0667543
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "opening_hours": "Mo-Su 08:00-16:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1389821,
+          -12.0627026
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "928",
+        "addr:street": "Avenida Miguel Grau",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Mercado El Rey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1343705,
+          -12.0509813
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado La Libertad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.098002,
+          -11.98346
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Canta Callao"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.066028,
+          -12.0314131
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1886",
+        "addr:street": "Jir\u00f3n R\u00edo Branco",
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0956422,
+          -12.0096383
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0606311,
+          -11.9551841
+        ]
+      },
+      "properties": {
+        "addr:street": "Avenida M\u00e9xico",
+        "amenity": "marketplace",
+        "name": "M\u00e8xico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0773517,
+          -11.9352337
+        ]
+      },
+      "properties": {
+        "amenity": "marketplace",
+        "name": "Mercado Cooperativa de Pro"
+      }
+    }
+  ]
+}
