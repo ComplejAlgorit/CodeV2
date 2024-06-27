@@ -13,13 +13,13 @@ class DeliverySystemApp:
         self.root.title("Sistema de Gestión de Entregas")
 
   
-        self.start_label = tk.Label(root, text="Seleccionar Mercado de Inicio:")
+        self.start_label = tk.Label(root, text="Seleccionar Almacén de Inicio:")
         self.start_label.pack(pady=5)
 
         self.start_combobox = ttk.Combobox(root, state="readonly")
         self.start_combobox.pack(pady=5)
 
-        self.end_label = tk.Label(root, text="Seleccionar Mercado de Destino:")
+        self.end_label = tk.Label(root, text="Seleccionar Tienda de Destino:")
         self.end_label.pack(pady=5)
 
         self.end_combobox = ttk.Combobox(root, state="readonly")
