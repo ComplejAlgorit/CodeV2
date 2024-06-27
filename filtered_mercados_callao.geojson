@@ -1,0 +1,332 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0802183,
+          -12.0125094
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "amenity": "marketplace",
+        "name": "Cooperativa de Servicios Especiales Cecilia Tupac Amaru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0849991,
+          -12.0146051
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "amenity": "marketplace",
+        "name": "Almacen Cooperativo Reynoso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0750771,
+          -12.026002
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "amenity": "marketplace",
+        "name": "Almacen Dulanto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0885608,
+          -12.0408847
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "addr:city": "Callao",
+        "addr:street": "Avenida Bertello (Colectora)",
+        "amenity": "marketplace",
+        "name": "Colectora El Alamo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.082957,
+          -12.0369491
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "addr:city": "Callao",
+        "addr:street": "Avenida Mora",
+        "amenity": "marketplace",
+        "name": "Ovalo Centenario (Callao)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0921742,
+          -12.0181272
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "addr:city": "Bellavista",
+        "addr:housenumber": "950",
+        "addr:street": "Avenida Juan Velasco Alvarado",
+        "amenity": "marketplace",
+        "name": "Jose Olaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0840339,
+          -12.0306245
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "amenity": "marketplace",
+        "name": "Modelo 200 Millas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0714103,
+          -12.0140879
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "amenity": "marketplace",
+        "name": "San Jose"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0914892,
+          -12.0346464
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "addr:city": "Bellavista",
+        "amenity": "marketplace",
+        "name": "San Pedro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0951063,
+          -12.0368891
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "addr:street": "Callao",
+        "amenity": "marketplace",
+        "name": "Virgen del Rosario"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0791721,
+          -12.0210698
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "addr:postcode": "07031",
+        "amenity": "marketplace",
+        "name": "365 Dali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0717313,
+          -12.0155365
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "amenity": "marketplace",
+        "name": "Adelasa",
+        "name:es": "Aldeasa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0891954,
+          -12.0132036
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0945097,
+          -12.0222709
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "amenity": "marketplace",
+        "name": "Vírgen del Carmen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0828712,
+          -12.0432269
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "amenity": "marketplace",
+        "name": "Mercado Virgen Maria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0868466,
+          -12.0399648
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "amenity": "marketplace",
+        "name": "Mercado Municipal Unidad Vecinal 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0973678,
+          -12.035487
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "amenity": "marketplace",
+        "name": "Asociación de comerciantes informales El Amauta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0972651,
+          -12.0229207
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "amenity": "marketplace",
+        "name": "Colegio Fujimori",
+        "name:en": "Fujimori School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0799677,
+          -12.0143693
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "amenity": "marketplace",
+        "opening_hours": "Mo-Su 08:00-16:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.083846,
+          -12.039941
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "addr:housenumber": "928",
+        "addr:street": "Avenida Miguel Grau",
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Almacen El Rey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0958409,
+          -12.0212426
+        ]
+      },
+      "properties": {
+        "id": 21
+      }
+    }
+  ]
+}
