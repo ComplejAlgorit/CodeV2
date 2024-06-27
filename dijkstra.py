@@ -1,70 +1,49 @@
 import osmnx as ox
 import networkx as nx
 import geopandas as gpd
-import heapq
 import matplotlib.pyplot as plt
+from shapely.geometry import Point
 
 # Cargar los archivos GeoJSON
 nodes = gpd.read_file("nodes_callao.geojson")
 edges = gpd.read_file("edges_callao.geojson")
 mercados = gpd.read_file("filtered_mercados_callao.geojson")
 
+# Asegurar que el CRS está correctamente establecido
+nodes.crs = 'epsg:4326'
+edges.crs = 'epsg:4326'
+mercados.crs = 'epsg:4326'
+
 # Convertir los GeoDataFrames a un grafo de NetworkX
-G = nx.from_pandas_edgelist(edges, 'u', 'v', edge_attr=True)
+G = nx.from_pandas_edgelist(edges, 'u', 'v', edge_attr=True, create_using=nx.DiGraph())
 
 # Añadir los atributos de posición a los nodos en el grafo
 for idx, node in nodes.iterrows():
-    G.nodes[node['osmid']].update(node)
+    G.nodes[node['osmid']].update({'y': node.geometry.y, 'x': node.geometry.x})
 
-# Definir la función Dijkstra con condiciones de tráfico
-def dijkstra_with_traffic(graph, start_node, end_node, traffic_conditions):
-    queue = []
-    heapq.heappush(queue, (0, start_node))
-    distances = {node: float('infinity') for node in graph.nodes}
-    distances[start_node] = 0
-    shortest_path = {}
+# Función para obtener el nodo más cercano a un punto utilizando GeoPandas
+def obtener_id_nodo_mas_cercano(graph, point):
+    # Convertir el punto a un GeoDataFrame
+    point_gdf = gpd.GeoDataFrame([{'geometry': Point(point.x, point.y)}], crs='epsg:4326')
+    # Proyectar el punto y los nodos a un CRS proyectado
+    point_gdf_projected = point_gdf.to_crs('EPSG:32718')  # Asegúrate de elegir un CRS adecuado para tu área de interés
+    nodes_projected = nodes.to_crs('EPSG:32718')  # Usar el mismo CRS para los nodos
+    # Calcular la distancia a todos los nodos en el CRS proyectado
+    distances = nodes_projected.geometry.apply(lambda x: point_gdf_projected.distance(x).min())
+    # Encontrar el ID del nodo más cercano
+    closest_node = distances.idxmin()
+    return nodes.iloc[closest_node]['osmid']
 
-    while queue:
-        current_distance, current_node = heapq.heappop(queue)
-
-        if current_distance > distances[current_node]:
-            continue
-
-        for neighbor in graph[current_node]:
-            weight = graph[current_node][neighbor].get('length', 1)
-            traffic_delay = traffic_conditions.get((current_node, neighbor), 0)
-            distance = current_distance + weight + traffic_delay
-
-            if distance < distances[neighbor]:
-                distances[neighbor] = distance
-                heapq.heappush(queue, (distance, neighbor))
-                shortest_path[neighbor] = current_node
-
-    path = []
-    while end_node:
-        path.append(end_node)
-        end_node = shortest_path.get(end_node)
-
-    return path[::-1], distances
-
-# Función para obtener el id del nodo más cercano
-def obtener_id_nodo_mas_cercano(G, point):
-    return ox.nearest_nodes(G, point.x, point.y)
-
-# Añadir ids de nodos más cercanos a los mercados
+# Calcular los nodos más cercanos para cada mercado
 mercados['closest_node'] = mercados.geometry.apply(lambda x: obtener_id_nodo_mas_cercano(G, x))
 
-# Definir nodos de inicio y fin (ajustar según los mercados)
+# Nodo de inicio y fin (ajustar según necesidad)
 start_node = mercados.iloc[0]['closest_node']
 end_node = mercados.iloc[1]['closest_node']
 
-# Suponiendo que tenemos un diccionario con datos de tráfico
-traffic_conditions = {
-    (u, v): 5 for (u, v, data) in G.edges(data=True)  # Ajusta según sea necesario
-}
-
-# Ejecutar el algoritmo con condiciones de tráfico
-path, distances = dijkstra_with_traffic(G, start_node, end_node, traffic_conditions)
+# Ejecutar el algoritmo de Dijkstra
+path = nx.shortest_path(G, source=start_node, target=end_node, weight='length')
+distances = nx.shortest_path_length(G, source=start_node, target=end_node, weight='length')
 
 # Visualizar la ruta en el grafo
 fig, ax = plt.subplots()
