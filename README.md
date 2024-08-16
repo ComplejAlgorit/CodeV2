@@ -4,7 +4,6 @@ Busca maximizar la eficiencia en la reposición de productos y reducir los tiemp
 
 
 # Bibliotecas utilizadas
-
 - osmnx: Biblioteca para trabajar con datos de OpenStreetMap.
 - networkx: Biblioteca para la manipulación de grafos.
 - geopandas: Biblioteca para manejar datos geoespaciales.
